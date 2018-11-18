@@ -42,7 +42,7 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>.\bin\</OutputDirectory>
+          <OutputDirectory>..\bin\</OutputDirectory>
           <OutputName>beep</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
@@ -349,17 +349,17 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\beep\main.c</FilePath>
+              <FilePath>.\main.c</FilePath>
             </File>
             <File>
               <FileName>music_data.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\beep\music_data.c</FilePath>
+              <FilePath>.\music_data.c</FilePath>
             </File>
             <File>
               <FileName>music_data.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\beep\music_data.h</FilePath>
+              <FilePath>.\music_data.h</FilePath>
             </File>
           </Files>
         </Group>
