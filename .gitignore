@@ -100,3 +100,8 @@ ENV/
 
 
 .idea/
+/bin/
+*.bak
+*.plg
+*.lst
+*.m51
