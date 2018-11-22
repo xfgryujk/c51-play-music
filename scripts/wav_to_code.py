@@ -29,10 +29,9 @@ def wav_to_code(wav_path, output_path):
         pcm = pcm.reshape(n_frames, n_channels)[:, 0]
         pcm += 128
     else:
-        pcm = np.fromstring(pcm, np.int16)
+        pcm = np.fromstring(pcm, np.int16).astype(np.int32)
         pcm = pcm.reshape(n_frames, n_channels)[:, 0]
-        pcm = (pcm + 32768).astype(np.float) / 256
-        pcm = pcm.astype(np.int32)
+        pcm = (pcm + 32768) // 256
         # 防溢出
         for index in np.where(pcm < 0):
             pcm[index] = 0
