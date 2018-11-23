@@ -15,3 +15,8 @@
 1. 将音频文件剪辑到大约10秒，重采样到大约5000Hz采样率，保存到`scripts/flower dance.wav`
 2. 运行`scripts/wav_to_code.py`
 3. 编译`dac/dac.uvproj`
+
+### PWM
+1. 将音频文件剪辑到大约10秒，重采样到大约5000Hz采样率，保存到`scripts/flower dance.wav`
+2. 运行`scripts/wav_to_pwm.py`
+3. 编译`pwm/pwm.uvproj`
