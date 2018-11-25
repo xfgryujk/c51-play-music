@@ -4,6 +4,7 @@
 ## 相关博客
 * [51单片机播放音乐（一）：蜂鸣器](https://blog.csdn.net/xfgryujk/article/details/84309970)
 * [51单片机播放音乐（二）：DA转换播放任意波形](https://blog.csdn.net/xfgryujk/article/details/84349735)
+* [51单片机播放音乐（三）：PWM播放任意波形](https://blog.csdn.net/xfgryujk/article/details/84479505)
 
 ## 编译方法
 ### 蜂鸣器

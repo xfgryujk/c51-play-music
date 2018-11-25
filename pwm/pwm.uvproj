@@ -356,6 +356,11 @@
               <FileType>1</FileType>
               <FilePath>.\music_data.c</FilePath>
             </File>
+            <File>
+              <FileName>music_data.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\music_data.h</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
